@@ -1,0 +1,149 @@
+2024-07-17 14:54:00,709 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 14:54:00,714 INFO supervisord started with pid 1
+2024-07-17 14:54:01,716 INFO spawnerr: can't find command '/usr/local/bin/gunicorn'
+2024-07-17 14:54:01,722 INFO spawned: 'nginx' with pid 8
+2024-07-17 14:54:02,735 INFO spawnerr: can't find command '/usr/local/bin/gunicorn'
+2024-07-17 14:54:02,738 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 14:54:04,741 INFO spawnerr: can't find command '/usr/local/bin/gunicorn'
+2024-07-17 14:54:07,746 INFO spawnerr: can't find command '/usr/local/bin/gunicorn'
+2024-07-17 14:54:07,747 INFO gave up: gunicorn entered FATAL state, too many start retries too quickly
+2024-07-17 14:54:42,791 WARN received SIGTERM indicating exit request
+2024-07-17 14:54:42,792 INFO waiting for nginx to die
+2024-07-17 14:54:42,801 INFO stopped: nginx (exit status 0)
+2024-07-17 15:07:38,508 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:07:38,512 INFO supervisord started with pid 1
+2024-07-17 15:07:39,521 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:07:39,523 INFO spawned: 'nginx' with pid 8
+2024-07-17 15:07:39,531 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:07:39,753 WARN exited: gunicorn (exit status 3; not expected)
+2024-07-17 15:07:40,757 INFO spawned: 'gunicorn' with pid 10
+2024-07-17 15:07:40,763 INFO spawned: 'nginx' with pid 11
+2024-07-17 15:07:40,772 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:07:40,996 WARN exited: gunicorn (exit status 3; not expected)
+2024-07-17 15:07:43,002 INFO spawned: 'gunicorn' with pid 13
+2024-07-17 15:07:43,004 INFO spawned: 'nginx' with pid 14
+2024-07-17 15:07:43,014 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:07:43,219 WARN exited: gunicorn (exit status 3; not expected)
+2024-07-17 15:07:46,225 INFO spawned: 'gunicorn' with pid 16
+2024-07-17 15:07:46,228 INFO spawned: 'nginx' with pid 17
+2024-07-17 15:07:46,236 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:07:46,237 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-07-17 15:07:46,440 WARN exited: gunicorn (exit status 3; not expected)
+2024-07-17 15:07:47,442 INFO gave up: gunicorn entered FATAL state, too many start retries too quickly
+2024-07-17 15:13:46,893 WARN received SIGTERM indicating exit request
+2024-07-17 15:14:26,577 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:14:26,581 INFO supervisord started with pid 1
+2024-07-17 15:14:27,585 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:14:27,589 INFO spawned: 'nginx' with pid 8
+2024-07-17 15:14:27,597 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:14:28,757 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:14:28,759 INFO spawned: 'nginx' with pid 10
+2024-07-17 15:14:28,770 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:14:30,775 INFO spawned: 'nginx' with pid 11
+2024-07-17 15:14:30,785 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:14:33,791 INFO spawned: 'nginx' with pid 12
+2024-07-17 15:14:33,799 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:14:34,801 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-07-17 15:16:01,914 WARN received SIGTERM indicating exit request
+2024-07-17 15:16:01,916 INFO waiting for gunicorn to die
+2024-07-17 15:16:03,046 INFO stopped: gunicorn (exit status 0)
+2024-07-17 15:16:38,242 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:16:38,246 INFO supervisord started with pid 1
+2024-07-17 15:16:39,250 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:16:39,254 INFO spawned: 'nginx' with pid 8
+2024-07-17 15:16:39,265 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:16:40,431 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:16:40,435 INFO spawned: 'nginx' with pid 10
+2024-07-17 15:16:40,443 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:16:42,448 INFO spawned: 'nginx' with pid 11
+2024-07-17 15:16:42,458 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:16:45,465 INFO spawned: 'nginx' with pid 12
+2024-07-17 15:16:45,474 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:16:46,476 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-07-17 15:22:55,942 WARN received SIGTERM indicating exit request
+2024-07-17 15:22:55,943 INFO waiting for gunicorn to die
+2024-07-17 15:22:57,068 INFO stopped: gunicorn (exit status 0)
+2024-07-17 15:23:40,467 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:23:40,474 INFO supervisord started with pid 1
+2024-07-17 15:23:41,477 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:23:41,483 INFO spawned: 'nginx' with pid 8
+2024-07-17 15:23:41,495 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:23:42,660 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:23:42,662 INFO spawned: 'nginx' with pid 10
+2024-07-17 15:23:42,672 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:23:44,677 INFO spawned: 'nginx' with pid 11
+2024-07-17 15:23:44,688 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:23:47,694 INFO spawned: 'nginx' with pid 12
+2024-07-17 15:23:47,703 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:23:48,706 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-07-17 15:24:14,742 WARN received SIGTERM indicating exit request
+2024-07-17 15:24:14,743 INFO waiting for gunicorn to die
+2024-07-17 15:24:15,870 INFO stopped: gunicorn (exit status 0)
+2024-07-17 15:25:23,519 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:25:23,524 INFO supervisord started with pid 1
+2024-07-17 15:25:24,527 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:25:24,529 INFO spawnerr: can't find command '/usr/sbin/nginx'
+2024-07-17 15:25:25,712 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:25:25,712 INFO spawnerr: can't find command '/usr/sbin/nginx'
+2024-07-17 15:25:27,717 INFO spawnerr: can't find command '/usr/sbin/nginx'
+2024-07-17 15:25:30,722 INFO spawnerr: can't find command '/usr/sbin/nginx'
+2024-07-17 15:25:30,723 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-07-17 15:27:17,851 WARN received SIGTERM indicating exit request
+2024-07-17 15:27:17,851 INFO waiting for gunicorn to die
+2024-07-17 15:27:18,983 INFO stopped: gunicorn (exit status 0)
+2024-07-17 15:27:54,058 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:27:54,062 INFO supervisord started with pid 1
+2024-07-17 15:27:55,065 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:27:55,068 INFO spawned: 'nginx' with pid 8
+2024-07-17 15:27:55,077 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:27:56,245 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:27:56,247 INFO spawned: 'nginx' with pid 10
+2024-07-17 15:27:56,259 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:27:58,264 INFO spawned: 'nginx' with pid 11
+2024-07-17 15:27:58,273 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:28:01,281 INFO spawned: 'nginx' with pid 12
+2024-07-17 15:28:01,290 WARN exited: nginx (exit status 1; not expected)
+2024-07-17 15:28:02,291 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-07-17 15:30:42,497 WARN received SIGTERM indicating exit request
+2024-07-17 15:30:42,498 INFO waiting for gunicorn to die
+2024-07-17 15:30:43,631 INFO stopped: gunicorn (exit status 0)
+2024-07-17 15:31:22,269 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:31:22,274 INFO supervisord started with pid 1
+2024-07-17 15:31:23,278 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:31:23,282 INFO spawned: 'nginx' with pid 8
+2024-07-17 15:31:24,447 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:31:24,448 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:32:46,691 WARN received SIGTERM indicating exit request
+2024-07-17 15:32:46,691 INFO waiting for gunicorn, nginx to die
+2024-07-17 15:32:46,696 INFO stopped: nginx (exit status 0)
+2024-07-17 15:32:46,819 INFO stopped: gunicorn (exit status 0)
+2024-07-17 15:33:16,100 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:33:16,104 INFO supervisord started with pid 1
+2024-07-17 15:33:17,108 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:33:17,111 INFO spawned: 'nginx' with pid 8
+2024-07-17 15:33:18,290 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:33:18,291 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:34:10,746 WARN received SIGTERM indicating exit request
+2024-07-17 15:34:10,747 INFO waiting for gunicorn, nginx to die
+2024-07-17 15:34:10,754 INFO stopped: nginx (exit status 0)
+2024-07-17 15:34:10,982 INFO stopped: gunicorn (exit status 0)
+2024-07-17 15:34:19,238 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:34:19,243 INFO supervisord started with pid 1
+2024-07-17 15:34:20,247 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:34:20,252 INFO spawned: 'nginx' with pid 8
+2024-07-17 15:34:21,411 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:34:21,412 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:34:26,420 WARN received SIGTERM indicating exit request
+2024-07-17 15:34:26,421 INFO waiting for gunicorn, nginx to die
+2024-07-17 15:34:26,426 INFO stopped: nginx (exit status 0)
+2024-07-17 15:34:26,554 INFO stopped: gunicorn (exit status 0)
+2024-07-17 15:36:10,886 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-17 15:36:10,891 INFO supervisord started with pid 1
+2024-07-17 15:36:11,895 INFO spawned: 'gunicorn' with pid 7
+2024-07-17 15:36:11,897 INFO spawned: 'nginx' with pid 8
+2024-07-17 15:36:13,061 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:36:13,062 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-17 15:36:22,075 WARN received SIGTERM indicating exit request
+2024-07-17 15:36:22,076 INFO waiting for gunicorn, nginx to die
+2024-07-17 15:36:22,080 INFO stopped: nginx (exit status 0)
+2024-07-17 15:36:22,206 INFO stopped: gunicorn (exit status 0)

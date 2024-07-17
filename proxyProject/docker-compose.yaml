@@ -1,0 +1,10 @@
+services:
+  c2_server_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: c2_server_container
+    ports:
+      - "80:80"
+    volumes:
+      - .:/application
